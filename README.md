@@ -71,6 +71,17 @@ docker compose exec app php artisan migrate
 docker compose exec app php artisan test
 ```
 
+### Instructions for Testing the Task Management API
+
+1. **Import the Collection**  
+   Import `Task_Management_API.postman_collection.json` into Postman to test the endpoints.
+
+2. **Create a User**  
+   Before testing, ensure you create a user using the appropriate endpoint.
+
+3. **Authentication**  
+   All requests require a token. Make sure to obtain the token by logging in and include it in the headers of your requests.
+
 ## API Documentation
 
 ### Endpoints
