@@ -152,7 +152,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"name\": \"Test User\",\n  \"email\": \"test4@mail.com\",\n  \"password\": \"ayodejidev\",\n  \"password_confirmation\": \"ayodejidev\"\n}",
+					"raw": "{\n  \"name\": \"Test User\",\n  \"email\": \"test4@mail.com\",\n  \"password\": \"securepassword\",\n  \"password_confirmation\": \"securepassword\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -190,7 +190,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"email\": \"test1@mail.com\",\n  \"password\": \"ayodejidev\"\n}",
+					"raw": "{\n  \"email\": \"test1@mail.com\",\n  \"password\": \"securepassword\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"

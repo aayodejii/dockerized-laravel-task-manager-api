@@ -53,13 +53,19 @@ docker compose exec app composer install
 docker compose exec app php artisan key:generate
 ```
 
-6. Run migrations:
+6. Run this fo fix a common permission issue
+
+```bash
+docker compose exec app chmod -R 777 storage bootstrap/cache
+```
+
+7. Run migrations:
 
 ```bash
 docker compose exec app php artisan migrate
 ```
 
-7. Run tests:
+8. Run tests:
 
 ```bash
 docker compose exec app php artisan test
