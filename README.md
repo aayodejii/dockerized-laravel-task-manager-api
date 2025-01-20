@@ -1,6 +1,6 @@
 # Task Management API
 
-A RESTful API for task management built with Laravel.
+A RESTful API for task management built with Laravel.  
 Note: Users can retrieve, update and delete ONLY their own tasks.
 
 ## Features
@@ -281,7 +281,7 @@ The API returns appropriate HTTP status codes:
 -   201: Created
 -   400: Bad Request
 -   404: Not Found
--   422: 422 Unprocessable Entity/Validation Error
+-   422: Unprocessable Entity/Validation Error
 -   500: Server Error
 
 ## Testing
